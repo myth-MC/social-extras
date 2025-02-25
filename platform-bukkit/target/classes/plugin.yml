@@ -1,0 +1,15 @@
+name: social-extras
+authors: [myth-MC, U8092]
+version: '0.1.0'
+api-version: 1.16
+
+main: ovh.mythmc.social_extras.bukkit.SocialExtrasPlugin
+depend: [ social ]
+softdepend: [ gestalt ]
+
+libraries:
+  - de.exlll:configlib-yaml:4.5.0
+
+permissions:
+  social.forward:
+    default: true
