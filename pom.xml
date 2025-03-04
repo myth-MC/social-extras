@@ -112,14 +112,14 @@
         <dependency>
             <groupId>ovh.mythmc</groupId>
             <artifactId>social-api</artifactId>
-            <version>0.4.0</version>
+            <version>0.4.1</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>ovh.mythmc</groupId>
             <artifactId>social-common</artifactId>
-            <version>0.4.0</version>
+            <version>0.4.1</version>
             <scope>provided</scope>
         </dependency>
 

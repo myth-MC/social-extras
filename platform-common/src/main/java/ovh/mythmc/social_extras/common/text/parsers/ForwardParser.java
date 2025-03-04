@@ -57,7 +57,7 @@ public class ForwardParser implements SocialUserInputParser {
             // Todo: change this
             replacement = SocialContextualParser.request(context.withMessage(replacement), MiniMessageParser.class);
 
-            Component hoverText = Component.text(forwardedMessage.sender().getNickname() + ": ", NamedTextColor.GRAY)
+            Component hoverText = Component.text(forwardedMessage.sender().getCachedDisplayName() + ": ", NamedTextColor.GRAY)
                 .append(Component.text(forwardedMessage.rawMessage(), NamedTextColor.WHITE));
 
             message = message.replaceText(TextReplacementConfig.builder()
